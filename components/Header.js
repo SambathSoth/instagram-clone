@@ -44,7 +44,7 @@ const Header = () => {
         </div>
 
         {/* Middle - Search input field*/}
-        <div className="max-w-xs">
+        <div className="w-64 max-w-xs">
           <div className="relative rounded-md p-3">
             <div className="absolute inset-y-0 flex items-center pl-3">
               <SearchIcon className="h-5 w-5 text-gray-500" />
@@ -59,7 +59,7 @@ const Header = () => {
 
         {/* Right */}
         <div className="flex items-center justify-end space-x-4">
-          <MenuIcon className="hidden h-8 cursor-pointer sm:inline-block md:hidden" />
+          {/* <MenuIcon className="hidden h-8 cursor-pointer sm:inline-block md:hidden" /> */}
           <HomeIcon onClick={() => router.push('/')} className="navBtn" />
           {session ? (
             <>
@@ -71,7 +71,7 @@ const Header = () => {
               </div>
               <PlusCircleIcon
                 onClick={() => setOpen(true)}
-                className="navBtn"
+                className="navBtn inline-block"
               />
               <UserGroupIcon className="navBtn" />
               <HeartIcon className="navBtn" />
