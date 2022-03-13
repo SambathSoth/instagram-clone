@@ -64,7 +64,7 @@ const Header = () => {
           {session ? (
             <>
               <div className="navBtn relative">
-                <PaperAirplaneIcon className="rotate-45" />
+                <PaperAirplaneIcon className="navBtn" />
                 <div className="absolute -top-1 -right-2 flex h-5 w-5 animate-pulse items-center justify-center rounded-full bg-red-500 text-xs text-white">
                   3
                 </div>
