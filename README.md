@@ -51,8 +51,6 @@ cd instagram-clone
 npm install # or yarn install
 ```
 
-````
-
 ## Configuration
 
 To configure the authentication and data storage for the Instagram Clone project, follow these steps:
@@ -77,7 +75,7 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your-firebase-measurement-id
 NEXTAUTH_URL=http://localhost:3000
 GOOGLE_ID=your-google-client-id
 GOOGLE_SECRET=your-google-client-secret
-````
+```
 
 ## Usage
 
